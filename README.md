@@ -1,2 +1,2 @@
-# html-css-cheatsheet.github.io
+# html-css-cheatsheet
 HTML CSS Cheatsheet
