@@ -10,6 +10,14 @@ table {
   background-color: white;
 }
 
+#column1 {
+  width: 40%;
+}
+
+#column2 {
+  width: 60%;
+}
+
 table thead {
     background-color: #73BBA3;
     color: #F6FB7A;
@@ -22,7 +30,11 @@ table thead h2 {
 
 table thead h3 {
   padding: 0px 20px;
-}   
+}
+
+table tbody tr td {
+  padding: 10px;
+}
 
 table tbody tr:nth-child(odd) {
     background-color: #B4E380;
@@ -38,8 +50,6 @@ code {
     font-size: 12px;
     background-color: rgba(0,0,0,0.8);
     color: white;
-    margin: 10px;
-    padding: 4px;
     font-family: 'Consolas';
     /* color: #333; */
 }
