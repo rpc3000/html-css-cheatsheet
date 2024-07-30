@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML/CSS cheatsheet</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+      
+    <table>
+      <thead>
+        <tr>
+          <td colspan="2">
+            <h2>HTML page basic structure</h2>
+          </td>
+        </tr>
+            <tr>
+                <td><h3>Code</h3></td>
+                <td><h3>Description</h3></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                  <code>
+<span class="taglt">&lt;</span><span class="tag">!DOCTYPE html</span><span class="taggt">&gt;</span>
+<span class="taglt">&lt;</span><span class="tag">html</span> <span class="attribute">lang</span>=&quot;<span class="value">en</span>&quot;<span class="taggt">&gt;</span>
+  <span class="taglt">&lt;</span><span class="tag">head</span><span class="taggt">&gt;</span>
+      <span class="taglt">&lt;</span><span class="tag">meta</span> <span class="attribute">charset</span>=&quot;<span class="value">UTF-8</span>&quot;<span class="taggt">&gt;</span>
+      <span class="taglt">&lt;</span><span class="tag">meta</span> <span class="attribute">name</span>=&quot;<span class="value">viewport</span>&quot; <span class="attribute">content</span>=&quot;<span class="value">width=device-width, initial-scale=1.0</span>&quot;<span class="taggt">&gt;</span>
+      <span class="taglt">&lt;</span><span class="tag">meta</span> <span class="attribute">name</span>=&quot;<span class="value">description</span>&quot; <span class="attribute">content</span>=&quot;<span class="value">A brief description of the page content.</span>&quot;<span class="taggt">&gt;</span>
+      <span class="taglt">&lt;</span><span class="tag">title</span><span class="taggt">&gt;</span><span class="text">My Webpage</span><span class="taglt">&lt;/</span><span class="tag">title</span><span class="taggt">&gt;</span>
+      <span class="taglt">&lt;</span><span class="tag">link</span> <span class="attribute">rel</span>=&quot;<span class="value">stylesheet</span>&quot; <span class="attribute">href</span>=&quot;<span class="value">style.css</span>&quot;<span class="taggt">&gt;</span>
+  <span class="taglt">&lt;/</span><span class="tag">head</span><span class="taggt">&gt;</span>
+  <span class="taglt">&lt;</span><span class="tag">body</span><span class="taggt">&gt;</span>
+      <span class="taglt">&lt;</span><span class="tag">header</span><span class="taggt">&gt;</span>
+          <span class="taglt">&lt;</span><span class="tag">div</span> <span class="attribute">class</span>=&quot;<span class="value">container</span>&quot;<span class="taggt">&gt;</span>
+              <span class="taglt">&lt;</span><span class="tag">h1</span><span class="taggt">&gt;</span><span class="text">Welcome to My Webpage</span><span class="taglt">&lt;/</span><span class="tag">h1</span><span class="taggt">&gt;</span>
+              <span class="taglt">&lt;</span><span class="tag">p</span><span class="taggt">&gt;</span><span class="text">Your description here</span><span class="taglt">&lt;/</span><span class="tag">p</span><span class="taggt">&gt;</span>
+          <span class="taglt">&lt;/</span><span class="tag">div</span><span class="taggt">&gt;</span>
+      <span class="taglt">&lt;/</span><span class="tag">header</span><span class="taggt">&gt;</span>
+      <span class="taglt">&lt;</span><span class="tag">nav</span><span class="taggt">&gt;</span>
+          <span class="taglt">&lt;</span><span class="tag">div</span> <span class="attribute">class</span>=&quot;<span class="value">container</span>&quot;<span class="taggt">&gt;</span>
+              <span class="taglt">&lt;</span><span class="tag">ul</span><span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">li</span><span class="taggt">&gt;</span><span class="taglt">&lt;</span><span class="tag">a</span> <span class="attribute">href</span>=&quot;<span class="value">#home</span>&quot;<span class="taggt">&gt;</span><span class="text">Home</span><span class="taglt">&lt;/</span><span class="tag">a</span><span class="taggt">&gt;</span><span class="taglt">&lt;/</span><span class="tag">li</span><span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">li</span><span class="taggt">&gt;</span><span class="taglt">&lt;</span><span class="tag">a</span> <span class="attribute">href</span>=&quot;<span class="value">#about</span>&quot;<span class="taggt">&gt;</span><span class="text">About</span><span class="taglt">&lt;/</span><span class="tag">a</span><span class="taggt">&gt;</span><span class="taglt">&lt;/</span><span class="tag">li</span><span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">li</span><span class="taggt">&gt;</span><span class="taglt">&lt;</span><span class="tag">a</span> <span class="attribute">href</span>=&quot;<span class="value">#services</span>&quot;<span class="taggt">&gt;</span><span class="text">Services</span><span class="taglt">&lt;/</span><span class="tag">a</span><span class="taggt">&gt;</span><span class="taglt">&lt;/</span><span class="tag">li</span><span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">li</span><span class="taggt">&gt;</span><span class="taglt">&lt;</span><span class="tag">a</span> <span class="attribute">href</span>=&quot;<span class="value">#contact</span>&quot;<span class="taggt">&gt;</span><span class="text">Contact</span><span class="taglt">&lt;/</span><span class="tag">a</span><span class="taggt">&gt;</span><span class="taglt">&lt;/</span><span class="tag">li</span><span class="taggt">&gt;</span>
+              <span class="taglt">&lt;/</span><span class="tag">ul</span><span class="taggt">&gt;</span>
+          <span class="taglt">&lt;/</span><span class="tag">div</span><span class="taggt">&gt;</span>
+      <span class="taglt">&lt;/</span><span class="tag">nav</span><span class="taggt">&gt;</span>
+      <span class="taglt">&lt;</span><span class="tag">main</span><span class="taggt">&gt;</span>
+          <span class="taglt">&lt;</span><span class="tag">div</span> <span class="attribute">class</span>=&quot;<span class="value">container</span>&quot;<span class="taggt">&gt;</span>
+              <span class="taglt">&lt;</span><span class="tag">section</span> <span class="attribute">id</span>=&quot;<span class="value">home</span>&quot;<span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">h2</span><span class="taggt">&gt;</span><span class="text">Home</span><span class="taglt">&lt;/</span><span class="tag">h2</span><span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">p</span><span class="taggt">&gt;</span><span class="text">Welcome to the homepage. Here you&#39;ll find the latest updates and news.</span><span class="taglt">&lt;/</span><span class="tag">p</span><span class="taggt">&gt;</span>
+              <span class="taglt">&lt;/</span><span class="tag">section</span><span class="taggt">&gt;</span>
+              <span class="taglt">&lt;</span><span class="tag">section</span> <span class="attribute">id</span>=&quot;<span class="value">about</span>&quot;<span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">h2</span><span class="taggt">&gt;</span><span class="text">About</span><span class="taglt">&lt;/</span><span class="tag">h2</span><span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">p</span><span class="taggt">&gt;</span><span class="text">Learn more about our company and our mission.</span><span class="taglt">&lt;/</span><span class="tag">p</span><span class="taggt">&gt;</span>
+              <span class="taglt">&lt;/</span><span class="tag">section</span><span class="taggt">&gt;</span>
+              <span class="taglt">&lt;</span><span class="tag">section</span> <span class="attribute">id</span>=&quot;<span class="value">services</span>&quot;<span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">h2</span><span class="taggt">&gt;</span><span class="text">Services</span><span class="taglt">&lt;/</span><span class="tag">h2</span><span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">p</span><span class="taggt">&gt;</span><span class="text">Discover the services we offer and how we can help you.</span><span class="taglt">&lt;/</span><span class="tag">p</span><span class="taggt">&gt;</span>
+              <span class="taglt">&lt;/</span><span class="tag">section</span><span class="taggt">&gt;</span>
+          <span class="taglt">&lt;/</span><span class="tag">div</span><span class="taggt">&gt;</span>
+          <span class="taglt">&lt;</span><span class="tag">aside</span><span class="taggt">&gt;</span>
+              <span class="taglt">&lt;</span><span class="tag">div</span> <span class="attribute">class</span>=&quot;<span class="value">container</span>&quot;<span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">h2</span><span class="taggt">&gt;</span><span class="text">Sidebar</span><span class="taglt">&lt;/</span><span class="tag">h2</span><span class="taggt">&gt;</span>
+                  <span class="taglt">&lt;</span><span class="tag">p</span><span class="taggt">&gt;</span><span class="text">Additional information, links, or ads can go here.</span><span class="taglt">&lt;/</span><span class="tag">p</span><span class="taggt">&gt;</span>
+              <span class="taglt">&lt;/</span><span class="tag">div</span><span class="taggt">&gt;</span>
+          <span class="taglt">&lt;/</span><span class="tag">aside</span><span class="taggt">&gt;</span>
+      <span class="taglt">&lt;/</span><span class="tag">main</span><span class="taggt">&gt;</span>
+      <span class="taglt">&lt;</span><span class="tag">footer</span><span class="taggt">&gt;</span>
+          <span class="taglt">&lt;</span><span class="tag">div</span> <span class="attribute">class</span>=&quot;<span class="value">container</span>&quot;<span class="taggt">&gt;</span>
+              <span class="taglt">&lt;</span><span class="tag">p</span><span class="taggt">&gt;</span>&amp;copy; <span class="text">2024 My Webpage. All rights reserved.</span><span class="taglt">&lt;/</span><span class="tag">p</span><span class="taggt">&gt;</span>
+          <span class="taglt">&lt;/</span><span class="tag">div</span><span class="taggt">&gt;</span>
+      <span class="taglt">&lt;/</span><span class="tag">footer</span><span class="taggt">&gt;</span>
+  <span class="taglt">&lt;/</span><span class="tag">body</span><span class="taggt">&gt;</span>
+<span class="taglt">&lt;/</span><span class="tag">html</span><span class="taggt">&gt;</span>
+                  </code>
+                    
+                </td>
+                <td>
+                    <p>DOCTYPE Declaration: The <span class="taglt">&lt;</span>!DOCTYPE html<span class="taggt">&gt;</span> declaration defines this document as an HTML5 document.</p>
+                    <p>HTML Element: The <span class="taglt">&lt;</span>html<span class="taggt">&gt;</span> tag is the root element of an HTML page. The lang attribute specifies the language of the document.</p>
+                    <h3>Head Section:</h3>
+                    <ul>
+                        <li>
+                            <p>Meta Tags:</p>
+                            <ul>
+                                <li><span class="taglt">&lt;</span>meta charset="UTF-8"<span class="taggt">&gt;</span> specifies the character encoding.</li>
+                                <li><span class="taglt">&lt;</span>meta name="viewport" content="width=device-width, initial-scale=1.0"<span class="taggt">&gt;</span> makes the page responsive.</li>
+                                <li><span class="taglt">&lt;</span>meta name="description" content="A brief description of the page content."<span class="taggt">&gt;</span> provides a summary of the page content for search engines.</li>
+                            </ul>
+                        </li>
+                        <li><span class="taglt">&lt;</span>title<span class="taggt">&gt;</span>: The <span class="taglt">&lt;</span>title<span class="taggt">&gt;</span> tag sets the title of the web page.</li>
+                        <li>CSS Link: The <span class="taglt">&lt;</span>link rel="stylesheet" href="style.css"<span class="taggt">&gt;</span> tag links to an external CSS file.</li>
+                    </ul>
+                    <h3>Body Section:</h3>
+                    <ul>
+                        <li>Header: The <span class="taglt">&lt;</span>header<span class="taggt">&gt;</span> tag contains introductory content, usually a logo or website title.</li>
+                        <li>Navigation: The <span class="taglt">&lt;</span>nav<span class="taggt">&gt;</span> tag contains the navigation menu.</li>
+                        <li>Main Content: The <span class="taglt">&lt;</span>main<span class="taggt">&gt;</span> tag wraps the main content of the page.</li>
+                        <li>Sections: Each <span class="taglt">&lt;</span>section<span class="taggt">&gt;</span> tag contains distinct parts of the content.</li>
+                        <li>Aside: The <span class="taglt">&lt;</span>aside<span class="taggt">&gt;</span> tag contains additional content like a sidebar.</li>
+                        <li>Footer: The <span class="taglt">&lt;</span>footer<span class="taggt">&gt;</span> tag contains footer content like copyright information.</li>
+                        <li>Container Divs: The <span class="taglt">&lt;</span>div class="container"<span class="taggt">&gt;</span> elements are used to wrap content for better styling and layout control using CSS.</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
